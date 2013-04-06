@@ -1,7 +1,7 @@
 #!/bin/sh
 
-VENDOR=manta
-DEVICE=mid08
+VENDOR=texet
+DEVICE=nuclear-evb
 
 BASE=../../../vendor/$VENDOR/$DEVICE/proprietary
 rm -rf $BASE/*
