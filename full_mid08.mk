@@ -30,10 +30,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 # This is where we'd set a backup provider if we had one
 #$(call inherit-product, device/sample/products/backup_overlay.mk)
 # Inherit from our device
-$(call inherit-product, device/manta/mid08/device.mk)
+$(call inherit-product, device/texet/nuclear-evb/device.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := full_mid08
-PRODUCT_DEVICE := mid08
-PRODUCT_BRAND := Manta
-PRODUCT_MODEL := Cyanogenmod9 on Manta MID08
+PRODUCT_NAME := full_nuclear-evb
+PRODUCT_DEVICE := nuclear-evb
+PRODUCT_BRAND := texet
+PRODUCT_MODEL := Cyanogenmod on TM-7026
