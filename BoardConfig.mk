@@ -13,12 +13,12 @@
 # limitations under the License.
 
 # Use the non-open-source part, if present
--include vendor/manta/mid08/BoardConfigVendor.mk
+-include vendor/texet/nuclear-evb/BoardConfigVendor.mk
 
 # Use the part that is common between all allwinner
 include device/allwinner/a13/BoardConfig.mk
 
-BOARD_CUSTOM_RECOVERY_KEYMAPPING := ../../device/manta/mid08/recovery_keys.c
+BOARD_CUSTOM_RECOVERY_KEYMAPPING := ../../device/texet/nuclear-evb/recovery_keys.c
 
 TARGET_PREBUILT_KERNEL := device/allwinner/a13/kernel
 #TARGET_KERNEL_CONFIG := sun5i_manta_defconfig
