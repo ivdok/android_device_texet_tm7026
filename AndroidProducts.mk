@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/full_mid08.mk
+    $(LOCAL_DIR)/full_nuclear-evb.mk
