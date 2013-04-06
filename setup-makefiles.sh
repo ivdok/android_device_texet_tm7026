@@ -1,7 +1,7 @@
 #!/bin/sh
 
-VENDOR=manta
-DEVICE=mid08
+VENDOR=texet
+DEVICE=nuclear-evb
 OUTDIR=vendor/$VENDOR/$DEVICE
 MAKEFILE=../../../$OUTDIR/$DEVICE-vendor-blobs.mk
 
