@@ -13,6 +13,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-add_lunch_combo full_mid08-eng
-add_lunch_combo full_mid08-userdebug
-add_lunch_combo full_mid08-user
+add_lunch_combo full_nuclear-evb-eng
+add_lunch_combo full_nuclear-evb-userdebug
+add_lunch_combo full_nuclear-evb-user
