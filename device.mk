@@ -19,9 +19,9 @@
 # Everything in this directory will become public
 
 $(call inherit-product, device/allwinner/a13/device.mk)
-$(call inherit-product-if-exists, vendor/manta/mid08/mid08-vendor.mk)
+$(call inherit-product-if-exists, vendor/texet/nuclear-evb/nuclear-evb-vendor.mk)
 
-DEVICE_PACKAGE_OVERLAYS += device/manta/mid08/overlay
+DEVICE_PACKAGE_OVERLAYS += device/texet/nuclear-evb/overlay
 
 # These are the hardware-specific features
 PRODUCT_COPY_FILES += \
@@ -29,18 +29,18 @@ PRODUCT_COPY_FILES += \
         frameworks/base/data/etc/android.hardware.camera.autofocus.xml:system/etc/permissions/android.hardware.camera.autofocus.xml \
 #
 PRODUCT_COPY_FILES := \
-	device/manta/mid08/ramdisk/modules/sw-keyboard.ko:/root/lib/modules/sw-keyboard.ko \
-	device/manta/mid08/ramdisk/modules/ft5x_ts.ko:/root/lib/modules/ft5x_ts.ko \
-	device/manta/mid08/ramdisk/init.rc:root/init.rc \
-	device/manta/mid08/ramdisk/initlogo.rle:root/initlogo.rle \
-	device/manta/mid08/ramdisk/init.sun5i.rc:root/init.sun5i.rc \
-	device/manta/mid08/ramdisk/init.sun5i.usb.rc:root/init.sun5i.usb.rc \
-	device/manta/mid08/ramdisk/ueventd.sun5i.rc:root/ueventd.sun5i.rc    
+	device/texet/nuclear-evb/ramdisk/modules/sw-keyboard.ko:/root/lib/modules/sw-keyboard.ko \
+	device/texet/nuclear-evb/ramdisk/modules/ft5x_ts.ko:/root/lib/modules/ft5x_ts.ko \
+	device/texet/nuclear-evb/ramdisk/init.rc:root/init.rc \
+	device/texet/nuclear-evb/ramdisk/initlogo.rle:root/initlogo.rle \
+	device/texet/nuclear-evb/ramdisk/init.sun5i.rc:root/init.sun5i.rc \
+	device/texet/nuclear-evb/ramdisk/init.sun5i.usb.rc:root/init.sun5i.usb.rc \
+	device/texet/nuclear-evb/ramdisk/ueventd.sun5i.rc:root/ueventd.sun5i.rc    
 
 
 PRODUCT_COPY_FILES += \
-	device/manta/mid08/config/camera.cfg:system/etc/camera.cfg \
-	device/manta/mid08/config/media_profiles.xml:system/etc/media_profiles.xml \
-	device/manta/mid08/config/devicespecific.sh:recovery/root/sbin/devicespecific.sh \
+	device/texet/nuclear-evb/config/camera.cfg:system/etc/camera.cfg \
+	device/texet/nuclear-evb/config/media_profiles.xml:system/etc/media_profiles.xml \
+	device/texet/nuclear-evb/config/devicespecific.sh:recovery/root/sbin/devicespecific.sh \
 # 	device/manta/mid08/init.sun5i.modules.rc:root/init.sun5i.modules.rc \
 
